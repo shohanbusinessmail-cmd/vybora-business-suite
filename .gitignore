@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+junit.xml
+
+# Build / packaging
+build/
+dist/
+*.spec.bak
+installer/Output/
+
+# Sandbox-only dev artifacts (never shipped)
+.sandbox-libs/
+
+# Secrets / customer data — NEVER commit
+*.private.pem
+*.key
+secrets/
+private/
+*.vbl
+*.vbr
+customer-data/
+*.db
+*.db-wal
+*.db-shm
+backups/
+logs/
+*.log
+
+# Owner-only License Generator (kept out of public Git until repo is private; BLK-001)
+tools/LicenseGenerator/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

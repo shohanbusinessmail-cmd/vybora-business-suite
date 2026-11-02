@@ -1,0 +1,42 @@
+VYBORA BUSINESS SUITE — END USER LICENSE AGREEMENT (EULA)
+Copyright (c) 2026 the project owner. All rights reserved.
+
+NOTICE: This is a proprietary commercial EULA template prepared for the owner's
+review. The owner must review and finalize it (with legal advice if needed) and
+insert the legal entity name and governing-law details before commercial release.
+It is not legal advice.
+
+1. LICENSE GRANT. Upon a valid one-time purchase, the owner grants you a
+   non-exclusive, non-transferable, lifetime license to install and use Vybora
+   Business Suite on the licensed machine(s) for your business operations.
+   "Lifetime" means the usable life of the licensed major version, with no
+   recurring license fees and no internet requirement after activation.
+
+2. RESTRICTIONS. You may not redistribute, sell, sublicense, or share the software
+   or license files except as expressly permitted; you may not remove proprietary
+   notices. Reverse engineering is restricted to the extent permitted by applicable
+   law. The owner-only License Generator is not licensed to you.
+
+3. YOUR DATA. All business data you enter remains yours and is stored locally on
+   your machine. The software performs no telemetry and makes no network calls
+   during normal operation. You are responsible for your own backups.
+
+4. UPDATES & SUPPORT. The lifetime license covers usage rights. Optional future
+   paid support, customization, or separately agreed services are distinct from the
+   license and are not required for continued use.
+
+5. NO WARRANTY. The software is provided "as is" without warranty of any kind, to
+   the maximum extent permitted by law. The owner is not liable for indirect or
+   consequential damages, including data loss; maintain verified backups.
+
+6. TAX/LEGAL COMPLIANCE. The software provides configurable tax/VAT fields but does
+   not itself certify statutory compliance. You are responsible for configuring the
+   software to meet applicable Bangladesh laws and regulations.
+
+7. TERMINATION. This license terminates if you breach its terms. Upon termination
+   you must cease use. Your data remains yours.
+
+8. GOVERNING LAW. To be completed by the owner (intended: Bangladesh).
+
+Third-party components are licensed separately; see docs/legal/THIRD_PARTY_NOTICES.md.
+Bundled font: Noto Sans Bengali, SIL Open Font License 1.1 (assets/fonts/OFL.txt).

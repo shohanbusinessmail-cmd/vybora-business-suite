@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vybora-business-suite"
+dynamic = ["version"]
+description = "Offline-first Bengali business management & POS desktop software for Windows"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+authors = [{ name = "Vybora" }]
+dependencies = [
+    "PySide6-Essentials>=6.7,<7",
+    "argon2-cffi>=23.1",
+    "cryptography>=42.0",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-qt>=4.4", "ruff>=0.5", "coverage>=7.4", "pip-audit>=2.7"]
+
+[project.scripts]
+vybora = "vybora.app:main"
+
+[tool.setuptools.dynamic]
+version = { file = "VERSION" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vybora = ["data/migrations/*.sql", "licensing/*.pem", "../assets/fonts/*.ttf"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+qt_api = "pyside6"
+markers = [
+    "performance: performance/benchmark tests (deselect with '-m \"not performance\"')",
+    "ui: offscreen Qt UI tests",
+]
